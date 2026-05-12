@@ -1,0 +1,41 @@
+# =============================================================================
+# .gitignore — HIT137 Spot the Difference
+# =============================================================================
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor artefacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Test outputs and temporary files
+*.log
+*.tmp
+
+# Keep sample image in repo so reviewers can run the game immediately
+# (remove this comment if you prefer not to track binary files)
