@@ -82,7 +82,6 @@ spot-the-difference/
 ```
 
 ---
-
 ## OOP Design
 
 ### Class Hierarchy
@@ -135,7 +134,6 @@ All pixel-level work uses **OpenCV** and **NumPy**:
 **No-repeat guarantee:** `random.sample` selects 5 unique types from the 6 available each round, so no alteration type appears twice in the same image.
 
 ---
-
 ## Gameplay Features (Tkinter GUI)
 
 | Requirement | Status |
